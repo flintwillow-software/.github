@@ -1,4 +1,4 @@
-name: 📐 Epic
+name: Epic
 description: Define a large body of work spanning multiple issues or repos
 labels: ["epic"]
 body:
