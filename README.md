@@ -4,7 +4,7 @@ Organization-wide GitHub templates for `flintwillow-software`.
 
 ## Structure
 
-Templates live in `.github/.github/ISSUE_TEMPLATE/` — the double `.github` is required for org-wide propagation.
+Issue forms live at `.github/ISSUE_TEMPLATE/*.yml`.
 
 ### Available Templates
 
@@ -26,11 +26,10 @@ All templates include:
 
 ### Adding New Templates
 
-1. Create a new markdown file in `.github/ISSUE_TEMPLATE/`
-2. Include the standard fields (`issue_type`, `priority`, `size`, `component`)
-3. Add a `name` at the top of the file (this is what shows in the chooser)
-4. Optionally add a `labels` field for auto-labeling
-5. Commit and push — templates propagate automatically
+1. Create a new `.yml` issue form in `.github/ISSUE_TEMPLATE/`
+2. Include structured form fields using GitHub's form schema: `dropdown`, `input`, `textarea`, `checkboxes`
+3. Add a YAML frontmatter block at the top with `name:` and optional `labels:`
+4. Commit and push — issue forms propagate to all org repos automatically
 
 ### Propagation
 
