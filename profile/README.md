@@ -33,6 +33,7 @@ and no lock-in by design.
 
 | Project | Description | Language |
 |---------|-------------|----------|
+| [**opennavi**](https://github.com/flintwillow-software/opennavi) | An SDK for creating **n**etwork **a**ssistants and **v**irtual **i**nterfaces — compiled AI agent binaries distributed as single executable files | Go |
 | [**qrcoder**](https://github.com/flintwillow-software/qrcoder) | A CLI tool for generating QR codes | Go |
 | [**bard**](https://github.com/flintwillow-software/bard) | Browser Application Routing Daemon — route URLs to the right browser profile | Go |
 | [**repo-template**](https://github.com/flintwillow-software/repo-template) | Starter template for flintwillow-software repos: CI, linting, and conventions preconfigured | — |
@@ -44,7 +45,6 @@ These are being built in the open but are not yet ready for use. Follow along or
 
 | Project | Description |
 |---------|-------------|
-| **opennavi** | Network Assistant and Virtual Interface — a Go-based self-hosted AI agent platform with hyperthreading and a TUI client |
 | **toforge** | Open-source, self-hosted TACOS platform — OpenTofu-first, Go stack, extensible workflow automation |
 | **karvoe** | Kinematically Animated Ragdolls and Voxel Object Engine (Rust) |
 
